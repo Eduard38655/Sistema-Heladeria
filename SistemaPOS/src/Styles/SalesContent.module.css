@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Content_Container_Sales{
+    width: auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+     font-family: "Roboto", sans-serif;
+  font-style: normal;
+     
+}
+.Items_Contaner_Sales{
+      width: auto;
+    height:100%;
+    
+     
+ 
+}
+
+.Content_Container_Sales img{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: fill;
+
+}
+.Items_Card_Sales{
+    width: auto;
+    height:420px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.Items_Card_Sales .Div_Container{
+    width: 200px;
+    height: 270px; 
+    display: flex;
+   
+    background-color: white;
+      align-items: center;
+  
+      flex-direction: column;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.DivText{
+    width:fit-content;
+    height: 80px;
+    display: flex;
+  
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-around;
+   
+}
+.Items_Contaner_Sales button{
+    width:90%;
+    height: 30px;
+    cursor: pointer;
+background: rgb(102, 102, 217);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.DivText p{
+    font-size: 13px;
+}
+
+ 
+
+.Div_Price{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+       padding: 10px;
+      
+}
+.Div_Price button{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: space-around;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+  background-color: rgb(18, 181, 18);
+  color: white;
+&:hover{
+background-color: rgb(89, 230, 89);
+}
+}
+
+ 
+.Div_Price p{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+     
+}
+.DivContainer_Items{
+   width: 380px;
+    height: 450px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    gap: 10px;
+    
+}
+.SubContainer_Items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   overflow-y: auto;
+   
+}
+.Inf_Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.DivContainer_Items img{
+    width: 50px;
+    height: 50px;
+}
+.DivContainer_Items .SubContainer_Items{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+   
+}
+.DivContainer_Items .SubContainer_Items div{
+    width: 100%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+       border-bottom: 1px solid #eee;
+    padding: 10px 0;
+
+}
+.SubContainer_Items div button{
+ 
+    background: rgba(185, 185, 193, 0.461);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    width: 25px;
+    height:25px;
+    border: 1px solid gainsboro;
+    border-radius: 100% ;
+    font-weight: 700;
+    
+}
+.SubContainer_Items div button:nth-child(7){
+  background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    width: 25px;
+    height:25px;
+    border: none;
+    font-weight: 700;
+}
+.pagination{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+   color: white;
+   display: flex;
+    flex-direction: row;
+    gap: 10px;
+     ;
+}
+.pagination ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    
+}
+.pagination ul li{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+ 
+
+ .emptyShop{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+ }

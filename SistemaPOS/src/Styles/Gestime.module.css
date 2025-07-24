@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.article_Time{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+.SubContainer{
+    width: 82.2%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  gap: 15px;
+  padding: 20px;
+ background-color: rgb(241 245 249);
+}
+
+/*Dialog Add Schedule*/
+
+.DivAdd{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+background-color: rgba(220, 220, 220, 0.282);
+display: flex;
+align-items: center;
+justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.DivTime_Container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 8px;
+    flex-direction: column;
+}
+.DivTime_Selects{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+.DivTime_Selects select{
+    width: 100%;
+    height: 45px;
+    text-align: start;
+    padding: 10px;
+appearance: none;
+font-size: 14px;
+border-radius: 5px;
+border: 1px solid #cbd5e1;
+}
+.DivTime_Selects select:focus{
+    outline: none;
+}
+.DivTime_Selects label{
+    margin-bottom: -15px;
+    font-size: 14px;
+    color: #334155;
+      font-weight: 500;
+}
+.DivTime_Inputs{
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+   
+      justify-content: space-between;
+    justify-content: center;
+gap: 20px;
+} 
+.DivTime_Inputs div{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  
+ 
+}
+ 
+.DivTime_Inputs div input{
+    width: 166px;
+    
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+   border-radius: 5px;
+ 
+ border: 1px solid #cbd5e1;
+ 
+font-weight: 600;
+
+}
+ 
+
+.DivTime_Inputs div input:focus{
+    outline: none;
+}
+.DivTime_Inputs  label{
+    font-size: 14px;
+    color: #334155;
+    font-weight: 500;
+}
+.DivOpt{
+    width: 100%;
+    height: auto;
+   display: flex;
+   justify-content: flex-end;
+   gap: 20px;
+}
+.DivOpt button{
+width: 100px;
+height: 40px;
+border-radius: 8px;
+font-size: 13px;
+font-weight: 700;
+border: none;
+cursor: pointer;
+}
+.DivOpt button:nth-child(1){
+background: #e2e8f0;
+color: #1e293b;
+
+}
+.DivOpt button:nth-child(1):hover{
+background:  #cbd5e1;
+}
+ 
+.DivOpt button:nth-child(2){
+background: #0284c7;;
+color: #ffffff;
+
+}
+.DivOpt button:nth-child(2):hover{
+background:  #0369a1;
+}
+ 

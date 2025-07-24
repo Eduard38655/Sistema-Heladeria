@@ -1,0 +1,49 @@
+.LoginContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(114, 105, 105, 0.306);
+}
+.Sub_Login_Container{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.Sub_Login_Container div{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.Sub_Login_Container div input{
+    width: 90%;
+    height: 10px;
+    border: 1px solid gainsboro;
+    font-size: 15px;
+    padding: 20px;
+
+}
+.Sub_Login_Container div input:focus{
+    outline: none;
+}
+.Sub_Login_Container button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(88, 166, 88);
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}

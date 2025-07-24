@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.DivHeader{
+    width: auto;
+    height: 40px;
+    background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 20px;
+   font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.DivLogut{
+    width: auto;
+    height: 100%;
+    display: flex;
+      align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+ .DivLogut img{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+ }
+ .DivLogut button{
+  width: 120px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 1s ease-out ;
+ 
+  scale: 1;
+ }
+ .DivLogut button:hover{
+transform: scale(1.1);
+background: rgb(250, 95, 95);
+box-shadow: 5px 5px 5px 0px gainsboro;
+ }
+  .DivLogut button i{
+    margin-right: 10px;
+    color: white;
+  }
+   .DivLogut  h4{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+   }

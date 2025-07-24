@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Navigation{
+    width: 240px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e293b;
+     font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ 
+}
+.DivNav{
+width: auto;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+ gap: 20px;
+ 
+}
+.DivNav h2{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    
+}
+.DivNav img{
+    width: 50px;
+    height: 50px;
+    background: none;
+    
+}
+.DivUl{
+    width: 85%;
+    height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.DivUl ul{
+    width: 100%;
+    height: 250px;
+list-style: none;
+ display: grid;
+ align-items: center;
+ 
+ gap: 10px;
+}
+.DivUl ul li {
+font-size: 15px;
+font-weight: 700;
+padding: 12px;
+color: #e2e8f0;
+}
+.DivUl ul li:hover{
+
+    background-color: #0284c7;
+    border-radius: 8px;
+}
+
+ 
+.DivUl ul i{
+    margin-right: 10px;
+}
+.RutaLink{
+    text-decoration: none;
+    color: white;
+}
