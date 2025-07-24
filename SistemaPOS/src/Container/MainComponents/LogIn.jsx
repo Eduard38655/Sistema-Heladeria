@@ -7,7 +7,7 @@ import { Information } from '../../Context/StoreContext.jsx';
 import Styles from '../../Styles/Login.module.css';
 
 function LogIng() {
-  alert("Usuario: ez@gmail.com, Clave: 123")
+  
   const navigate = useNavigate(); 
   const dispatch = useDispatch();
   const { SetLogout } = useContext(Information);
@@ -18,7 +18,7 @@ function LogIng() {
   const [errorPass, setErrorPass] = useState('');
 
   function ValidateUser() {
-    
+     alert("Usuario: ez@gmail.com, Clave: 123")
     // Validaciones de campos vacíos
     if (!username && !password) {
       setErrorUser('Este campo no puede estar vacio');
