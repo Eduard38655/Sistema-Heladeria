@@ -64,7 +64,7 @@ function LogIng() {
       <div>
           <input
           type="email"
-          value={username}
+          value={"eduado154@gmail.com"}
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Usuario"
         />
@@ -72,7 +72,7 @@ function LogIng() {
 
         <input
           type="password"
-          value={password}
+          value={"123"}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Contraseña"
         />
