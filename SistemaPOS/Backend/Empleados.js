@@ -5,7 +5,7 @@ const Empleados = [
     HorarioFecha: "2025-07-13",
     Name: "Eduardo",
     Apellido: "Ferreras",
-    Username: "eduado154@gmail.com",
+    Username: "ez@gmail.com",
     Password: "123",
     Role: "owner",
     Phone: "000-000-0000",

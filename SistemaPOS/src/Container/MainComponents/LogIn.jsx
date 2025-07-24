@@ -17,6 +17,7 @@ function LogIng() {
   const [errorPass, setErrorPass] = useState('');
 
   function ValidateUser() {
+    alert("Usuario: ez@gmail.com, Clave: 123")
     // Validaciones de campos vacíos
     if (!username && !password) {
       setErrorUser('Este campo no puede estar vacio');
@@ -64,7 +65,7 @@ function LogIng() {
       <div>
           <input
           type="email"
-          value={"eduado154@gmail.com"}
+          value={username}
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Usuario"
         />
@@ -72,7 +73,7 @@ function LogIng() {
 
         <input
           type="password"
-          value={"123"}
+          value={password}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Contraseña"
         />
